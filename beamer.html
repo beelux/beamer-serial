@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		  html {
+		    font-family: sans-serif;
+		    text-align: center;
+		  }
+			h1 {
+				font-size: 50px;
+			}
+			.a {
+				text-decoration: none;
+			}
+		  .button {
+		    color: white;
+		    border: none;
+		    padding: 16px 40px;
+		    font-size: 30px;
+		    cursor: pointer;
+		  }
+		  .on {
+		    background-color: #00CD6C;
+		  }
+			.off {
+				background-color: #FF1F5B;
+			}
+			.source {
+		    background-color: #A0B1BA;
+			}
+			.control {
+		    background-color: #F28522;
+			}
+			.one-item-grid {
+				grid-column: 1/4;
+			}
+			hr {
+			background-color: gray;
+			}
+			#button-container {
+				margin-left: 30%;
+				margin-right: 30%;
+				display: grid;
+				grid-template-columns: auto auto auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Chill Beamer Control</h1>
+
+		<div id="button-container">
+
+			<div>
+				<p>Power on</p>
+				<p><a href="/on"><button class="button on">ON</button></a></p>
+			</div>
+
+			<div>
+				<p>Power off</p>
+				<p><a href="/off"><button class="button off">OFF</button></a></p>
+			</div>
+
+			<div></div>
+
+			<div class="one-item-grid"><hr></div>
+
+			<div>
+				<p>HDMI</p>
+				<p><a href="/hdmi"><button class="button source">HDMI</button></a></p>
+			</div>
+
+			<div>
+				<p>VGA</p>
+				<p><a href="/rgb"><button class="button source">VGA</button></a></p>
+			</div>
+
+			<div>
+				<p>Source search</p>
+				<p><a href="/source"><button class="button source">Search</button></a></p>
+			</div>
+
+			<div>
+				<p>Hide</p>
+				<p><a href="/hide"><button class="button control">Toggle</button></a></p>
+			</div>
+
+			<div>
+				<p>Freeze</p>
+				<p><a href="/freeze"><button class="button control">Toggle</button></a></p>
+			</div>
+
+			<div>
+				<p>Re-sync</p>
+				<p><a href="/re-sync"><button class="button control">Re-sync</button></a></p>
+			</div>
+		</div>
+	</body>
+</html>
