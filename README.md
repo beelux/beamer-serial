@@ -7,3 +7,7 @@ To do this, one can use the ESP8266 with an empty program, which, for all intent
 
 ## Serial codes
 See [the code file](p1500-serial-codes.md) for the various serial codes.
+
+## Web page
+[beamer.html](beamer.html) contains the website that the ESP serves.
+The usage of GET requests makes it not ideal but much simpler (no JS or hacky forms needed).
