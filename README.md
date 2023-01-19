@@ -1,6 +1,8 @@
 # Beamer-Serial
 Control a projector through the web (on an ESP8266 which uses serial).
 
+![Picture of the ESP8266 with a RS232 Shifter on a breadboard](breadboard.jpg)
+
 ## Serial usage
 For "testing", one can control the projector directly through the ESP8266 dev board.
 To do this, one can use the ESP8266 with an empty program, which, for all intents and purposes, transforms the development board into a serial adapter.
